@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Red Bus Mobile Application]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <test name="Login:: 02(failed)" parallel="tests">
+    <classes>
+      <class name="android.Index.RedBusIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="SigninwithRedBus"/>
+        </methods>
+      </class> <!-- android.Index.RedBusIndex -->
+    </classes>
+  </test> <!-- Login:: 02(failed) -->
+</suite> <!-- Failed suite [Red Bus Mobile Application] -->
