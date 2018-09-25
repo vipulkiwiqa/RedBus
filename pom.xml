@@ -11,7 +11,7 @@
 
 
 	<groupId>com.android</groupId>
-	<artifactId>WorkpulseTask_Android</artifactId>
+	<artifactId>RedBus_Android</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 

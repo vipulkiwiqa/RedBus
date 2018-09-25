@@ -14,6 +14,7 @@ import java.util.TimeZone;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -227,4 +228,100 @@ public class TestCommons {
 		log("<br><Strong><font color=#FF0000>--Failed</font></strong>");
 		return "<a href='../test-output/screenshots/" + screenshot_name + "' target='_new'>" + link_text + "</a>";
 	}
+
+
+	// Vipul
+	//Swipe 
+	// * Time duration should be in milliseconds
+	
+	/**
+	  /* Method to swipe screen from Bottom to Top (Vertical) Get the size of
+	  * screen. Find swipe start and end point from screen's width and height.
+	  * Find starty point which is at bottom side of screen. Find endy point
+	  * which is at top side of screen. Find horizontal point where you wants to
+	  * swipe. It is in middle of screen width.
+	  * Time duration should be in milliseconds
+	  */
+	 public static void bottomTopswipe(AndroidDriver<MobileElement> driver,int timeduration) {
+
+		 TestCommons.pause(10);
+		  Dimension size = driver.manage().window().getSize();
+		  System.out.println(size);
+		  int starty = (int) (size.height * 0.50);
+		  int endy = (int) (size.height * 0.20);
+		  int startx = size.width / 2;
+		  System.out.println("Start swipe operation");
+		  driver.swipe(startx, starty, startx, endy, timeduration);
+
+		 }
+	// * Time duration should be in milliseconds
+	 
+	
+	  /** Method to swipe screen from Top to Bottom (Vertical) Get the size of
+	  * screen. Find swipe start and end point from screen's width and height.
+	  * Find starty point which is at bottom side of screen. Find endy point
+	  * which is at top side of screen. Find horizontal point where you wants to
+	  * swipe. It is in middle of screen width. 
+	         * Time duration should be in milliseconds*/
+	 public static void topBottomswipe(AndroidDriver<MobileElement> driver,int timeduration) {
+
+		 TestCommons.pause(10);
+		 Dimension size = driver.manage().window().getSize();
+		  System.out.println(size);
+		 int starty = (int) (size.height * 0.50);
+		  int endy = (int) (size.height * 0.20);
+		  int startx = size.width / 2;
+		  System.out.println("Start swipe operation");
+		  driver.swipe(startx, endy, startx, starty, timeduration);
+
+		 }
+     // * Time duration should be in milliseconds
+	 
+	 /**
+	  * 
+	  * Method to swipe screen from right to left (Horizontal) duration should be
+	  * in milliseconds Get the size of screen. Find swipe start and end point
+	  * from screen's width and height. Find startx point which is at right side
+	  * of screen. Find endx point which is at left side of screen. Find vertical
+	  * point where you wants to swipe. It is in middle of screen height. 
+	         * Time duration should be in milliseconds
+	   */
+
+	 public static void rightLeftSwipe(AndroidDriver<MobileElement> driver,int timeduration) {
+         TestCommons.pause(10);
+		 Dimension size = driver.manage().window().getSize();
+		  System.out.println(size);
+		  int startx = (int) (size.width * 0.7);
+		  int endx = (int) (size.width * 0.01);
+		  int starty = size.height / 2;
+		  System.out.println("Start swipe operation");
+		  driver.swipe(startx, starty, endx, starty, timeduration);
+
+		 }
+	 
+	 // * Time duration should be in milliseconds
+	 
+	 /**
+	  * 
+	  * Method to swipe screen from left to right (Horizontal) duration should be
+	  * in milliseconds Get the size of screen. Find swipe start and end point
+	  * from screen's width and height. Find startx point which is at right side
+	  * of screen. Find endx point which is at left side of screen. Find vertical
+	  * point where you wants to swipe. It is in middle of screen height. 
+	         * Time duration should be in milliseconds
+	      */
+	 public static void leftRightSwipe(AndroidDriver<MobileElement> driver,int timeduration) {
+		  // duration should be in milliseconds
+		 TestCommons.pause(10);
+		 Dimension size = driver.manage().window().getSize();
+		  System.out.println(size);
+		  int startx = (int) (size.width * 0.99);
+		  int endx = (int) (size.width * 0.3);
+		  int starty = size.height / 2;
+		  System.out.println("Start swipe operation");
+		  driver.swipe(endx, starty, startx, starty, timeduration);
+
+		 }
+	 
+	 
 }

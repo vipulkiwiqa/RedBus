@@ -4,17 +4,15 @@
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.browser" value="chrome"/>
-  <test name="Login:: 02(failed)" parallel="tests">
+  <test name="Swipe Screens:: 03(failed)" parallel="tests">
     <classes>
       <class name="android.Index.RedBusIndex">
         <methods>
-          <include name="setUp"/>
+          <include name="swipethescreens"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="SigninwithRedBus"/>
         </methods>
       </class> <!-- android.Index.RedBusIndex -->
     </classes>
-  </test> <!-- Login:: 02(failed) -->
+  </test> <!-- Swipe Screens:: 03(failed) -->
 </suite> <!-- Failed suite [Red Bus Mobile Application] -->

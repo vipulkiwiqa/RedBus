@@ -69,5 +69,41 @@ public class RedBusIndex extends AppiumInit {
 		
 	}//end of function
 	
-
+	@Test
+	public void swipethescreens() throws Exception
+	{
+		int step = 1;
+	
+		TestCommons.logcase("Sign In with RedBus using valid Credential Details ");
+		
+		TestCommons.log("Step "+(step++)+":Choose The Language ");
+		RedBusIndexpage.chosethelanguage(androidDriver);
+		TestCommons.log("Step "+(step++)+ ":Click on Continue ");
+		RedBusIndexpage.Clickoncontinuebutton(androidDriver);
+		
+		TestCommons.pause(10);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left ");
+		TestCommons.rightLeftSwipe(androidDriver, 5000);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left");
+		TestCommons.rightLeftSwipe(androidDriver, 5000);
+		
+		TestCommons.pause(10);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Left to Right ");
+		TestCommons.leftRightSwipe(androidDriver, 5000);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Left to Right");
+		TestCommons.leftRightSwipe(androidDriver, 5000);
+		
+		TestCommons.pause(10);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left ");
+		TestCommons.rightLeftSwipe(androidDriver, 5000);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left");
+		TestCommons.rightLeftSwipe(androidDriver, 5000);
+		TestCommons.log("Step "+(step++)+":Click on Skip  ");
+		
+		RedBusIndexpage.clickonskip(androidDriver);
+		
+	}//end of function
+	
+	
+	
 }

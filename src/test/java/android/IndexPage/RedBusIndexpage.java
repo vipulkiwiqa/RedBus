@@ -10,7 +10,7 @@ public class RedBusIndexpage {
 public static void chosethelanguage(AndroidDriver<MobileElement> androidDriver) {
 		
 		
-        TestCommons.pause(10);
+        TestCommons.pause(15);
 		MobileElement checkbox = androidDriver.findElementByXPath("//*[@text='English']/../android.widget.RadioButton");
         
         //MobileElement checkbox = androidDriver.findElementById("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.RadioButton");
@@ -82,6 +82,17 @@ public static void loginAgainAgain(AndroidDriver<MobileElement> androidDriver) {
 	TestCommons.pause(10);
 	MobileElement login_btn_again_again = androidDriver.findElementById("in.redbus.android:id/loginButton");
 	login_btn_again_again.click();
+	TestCommons.pause(25);	
+	
+}
+
+
+
+public static void clickonskip(AndroidDriver<MobileElement> androidDriver) {
+	// TODO Auto-generated method stub
+	TestCommons.pause(20);
+	MobileElement skip_lnk = androidDriver.findElementById("in.redbus.android:id/skip");
+	skip_lnk.click();
 	TestCommons.pause(25);	
 	
 }
