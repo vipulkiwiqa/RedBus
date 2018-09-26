@@ -1,5 +1,5 @@
 package android.IndexPage;
-import org.openqa.selenium.By;
+import java.util.List;
 
 import android.init.TestCommons;
 import io.appium.java_client.MobileElement;
@@ -93,7 +93,39 @@ public static void clickonskip(AndroidDriver<MobileElement> androidDriver) {
 	TestCommons.pause(20);
 	MobileElement skip_lnk = androidDriver.findElementById("in.redbus.android:id/skip");
 	skip_lnk.click();
-	TestCommons.pause(25);	
+	TestCommons.pause(10);	
+	
+}
+
+////*[@text='Enter City']
+public static void taponscreen(AndroidDriver<MobileElement> androidDriver) {
+	// TODO Auto-generated method stub
+	TestCommons.pause(10);
+	List<MobileElement> taps = androidDriver.findElementsByXPath("//*[@text='Enter City']");
+	for(MobileElement ele:taps){
+		TestCommons.pause(2);
+		ele.tap(1, 1);
+		TestCommons.log("======> Tap on the Enter City Field <=====");
+		break;
+		}
+		TestCommons.pause(15);	
+    }
+public static void SourceCity(AndroidDriver<MobileElement> androidDriver) {
+	// TODO Auto-generated method stub
+	TestCommons.pause(5);
+	MobileElement source_city = androidDriver.findElementById("in.redbus.android:id/txtSource");
+	source_city.click();
+	source_city.sendKeys("Ahmedabad");
+	TestCommons.pause(10);	
+	
+}
+public static void DestinationCity(AndroidDriver<MobileElement> androidDriver) {
+	// TODO Auto-generated method stub
+	TestCommons.pause(5);
+	MobileElement Destination_city = androidDriver.findElementById("in.redbus.android:id/txtDestination");
+	Destination_city.click();
+	Destination_city.sendKeys("Mumbai");
+	TestCommons.pause(10);	
 	
 }
 

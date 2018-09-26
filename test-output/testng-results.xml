@@ -40,13 +40,19 @@
     <line>
       <![CDATA[<br>Step 9:Click on Skip  </br>]]>
     </line>
+    <line>
+      <![CDATA[<br>Step 10:Tap On Screen </br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>======> Tap on the Enter City Field <=====</br>]]>
+    </line>
   </reporter-output>
-  <suite name="Red Bus Mobile Application" duration-ms="273177" started-at="2018-09-25T07:16:35Z" finished-at="2018-09-25T07:21:08Z">
+  <suite name="Red Bus Mobile Application" duration-ms="353553" started-at="2018-09-26T06:23:09Z" finished-at="2018-09-26T06:29:02Z">
     <groups>
     </groups>
-    <test name="Swipe Screens:: 03" duration-ms="273177" started-at="2018-09-25T07:16:35Z" finished-at="2018-09-25T07:21:08Z">
+    <test name="Swipe Screens:: 03" duration-ms="353553" started-at="2018-09-26T06:23:09Z" finished-at="2018-09-26T06:29:02Z">
       <class name="android.Index.RedBusIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="setUp" is-config="true" duration-ms="59494" started-at="2018-09-25T12:46:35Z" finished-at="2018-09-25T12:47:34Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="setUp" is-config="true" duration-ms="64712" started-at="2018-09-26T11:53:09Z" finished-at="2018-09-26T11:54:14Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +72,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="swipethescreens()[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="swipethescreens" duration-ms="205097" started-at="2018-09-25T12:47:34Z" finished-at="2018-09-25T12:50:59Z">
+        <test-method status="PASS" signature="swipethescreens()[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="swipethescreens" duration-ms="279192" started-at="2018-09-26T11:54:14Z" finished-at="2018-09-26T11:58:53Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
@@ -98,9 +104,15 @@
             <line>
               <![CDATA[<br>Step 9:Click on Skip  </br>]]>
             </line>
+            <line>
+              <![CDATA[<br>Step 10:Tap On Screen </br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>======> Tap on the Enter City Field <=====</br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- swipethescreens -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="8574" started-at="2018-09-25T12:50:59Z" finished-at="2018-09-25T12:51:08Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="9640" started-at="2018-09-26T11:58:53Z" finished-at="2018-09-26T11:59:02Z">
           <params>
             <param index="0">
               <value>

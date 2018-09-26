@@ -17,8 +17,8 @@
 
 	<!-- <parameter name="selenium.url" value="http://demoqa.com/registration/" 
 		/> -->
-<!-- 
-	<test name="Sign Up:: 01">
+
+	<!-- <test name="Sign Up:: 01">
 		<classes>
 			<class name="android.Index.RedBusIndex">
 				<methods>
@@ -35,13 +35,23 @@
 				</methods>
 			</class>
 		</classes>
-	</test> -->
+	</test>
 	
 	<test name="Swipe Screens:: 03">
 		<classes>
 			<class name="android.Index.RedBusIndex">
 				<methods>
 					<include name="swipethescreens" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 -->
+	<test name="Swipe Screens:: 03">
+		<classes>
+			<class name="android.Index.RedBusIndex">
+				<methods>
+					<include name="selectyourroute" />
 				</methods>
 			</class>
 		</classes>

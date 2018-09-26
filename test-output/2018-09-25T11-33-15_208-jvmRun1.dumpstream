@@ -1,0 +1,43 @@
+# Created at 2018-09-25T11:35:45.288
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+# Created at 2018-09-25T11:35:46.958
+Unexpected IOException with stream: <br>Step 7:Swipe the Screens Right to Left </br>
+
+
+# Created at 2018-09-25T11:35:56.975
+Unexpected IOException with stream: (720, 1184)
+
+# Created at 2018-09-25T11:35:56.975
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-25T11:35:56.976
+Unexpected IOException with stream: Start swipe operation
+
+
+# Created at 2018-09-25T11:36:00.795
+Unexpected IOException with stream: <br>Step 8:Swipe the Screens Right to Left</br>
+
+
+# Created at 2018-09-25T11:36:10.817
+Unexpected IOException with stream: (720, 1184)
+
+# Created at 2018-09-25T11:36:10.818
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-25T11:36:10.818
+Unexpected IOException with stream: Start swipe operation
+
+
+# Created at 2018-09-25T11:36:14.331
+Unexpected IOException with stream: <br>Step 9:Click on Skip  </br>
+
+

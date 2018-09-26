@@ -1,0 +1,37 @@
+# Created at 2018-09-25T10:45:45.465
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+# Created at 2018-09-25T10:45:58.982
+Unexpected IOException with stream: <br>--------------------------------------------------------------------------</br>
+
+
+# Created at 2018-09-25T10:45:58.983
+Unexpected IOException with stream: <br>------------------- Initiating the Mobile App Session -------------------</br>
+
+
+# Created at 2018-09-25T10:45:58.983
+Unexpected IOException with stream: <br>--------------------------------------------------------------------------</br>
+
+
+# Created at 2018-09-25T10:46:03.984
+Unexpected IOException: 5,1,android.Index.RedBusIndex,SigninwithRedBus(android.Index.RedBusIndex),android.Index.RedBusIndex,null,null
+
+
+# Created at 2018-09-25T10:46:03.985
+Unexpected IOException with stream: Sign In with RedBus using valid Credential Details 
+
+
+# Created at 2018-09-25T10:46:03.985
+Unexpected IOException with stream: <br>Step 1:Choose The Language </br>
+
+
+# Created at 2018-09-25T10:46:24.568
+Unexpected IOException with stream: <br>Step 2:Click on Continue </br>
+
+
