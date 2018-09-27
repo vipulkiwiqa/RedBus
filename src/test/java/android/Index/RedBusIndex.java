@@ -150,5 +150,47 @@ public class RedBusIndex extends AppiumInit {
 		
 	}//end of function
 	
+	@Test
+	public void login() throws Exception
+	{
+		int step = 1;
+	
+		TestCommons.logcase("Sign In with RedBus using valid Credential Details ");
+		
+		TestCommons.log("Step "+(step++)+":Choose The Language ");
+		RedBusIndexpage.chosethelanguage(androidDriver);
+		TestCommons.log("Step "+(step++)+ ":Click on Continue ");
+		RedBusIndexpage.Clickoncontinuebutton(androidDriver);
+		
+		
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left ");
+		TestCommons.rightLeftSwipe(androidDriver, 5000);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left");
+		TestCommons.rightLeftSwipe(androidDriver, 5000);
+		
+		
+		
+		TestCommons.log("Step "+(step++)+":Click on Skip  ");
+		RedBusIndexpage.clickonskip(androidDriver);
+		
+		TestCommons.log("Step "+(step++)+ ":Tap On Screen ");
+		RedBusIndexpage.taponscreen(androidDriver);
+		
+		TestCommons.log("Step "+(step++)+ ":Click on the Profile Icon ");
+		RedBusIndexpage.profile_icon(androidDriver);
+		
+		TestCommons.log("Step "+(step++)+":Click on Login ");
+		RedBusIndexpage.login(androidDriver);
+		
+		TestCommons.log("Step "+(step++)+":Click on Login Again ");
+		RedBusIndexpage.loginAgain(androidDriver);
+		
+		TestCommons.log("Step "+(step++)+ ":Enter Mobile Number ");
+		RedBusIndexpage.entermobilenumber(androidDriver);
+		
+		TestCommons.log("Step "+(step++)+":Click on Login Again ");
+		RedBusIndexpage.loginAgainAgain(androidDriver);
+		
+	}//end of function
 	
 }

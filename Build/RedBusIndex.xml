@@ -26,7 +26,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test>--><!-- 
 <test name="Login:: 02">
 		<classes>
 			<class name="android.Index.RedBusIndex">
@@ -46,12 +46,21 @@
 			</class>
 		</classes>
 	</test>
-	 -->
-	<test name="Swipe Screens:: 03">
+	
+	<test name="Select Trip and Fare:: 04">
 		<classes>
 			<class name="android.Index.RedBusIndex">
 				<methods>
 					<include name="selectyourroute" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	<test name="Login:: 05">
+		<classes>
+			<class name="android.Index.RedBusIndex">
+				<methods>
+					<include name="login" />
 				</methods>
 			</class>
 		</classes>

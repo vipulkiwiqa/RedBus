@@ -50,8 +50,8 @@ public static void signupredbus(AndroidDriver<MobileElement> androidDriver){
 //in.redbus.android:id/mobileNumber
 public static void entermobilenumber(AndroidDriver<MobileElement> androidDriver){
 	TestCommons.pause(10);
-	MobileElement mob_no = androidDriver.findElementById("in.redbus.android:id/mobileNumber");
-	mob_no.sendKeys("1234567890");
+	MobileElement mob_no = androidDriver.findElementById("in.redbus.android:id/mobileNumber");//in.redbus.android:id/mobileNumber
+	mob_no.sendKeys("9537749631");
 	TestCommons.pause(10);	
 }
 //in.redbus.android:id/signupButton
@@ -65,7 +65,7 @@ public static void clickonsignupbutton(AndroidDriver<MobileElement> androidDrive
 public static void login(AndroidDriver<MobileElement> androidDriver) {
 	// TODO Auto-generated method stub
 	TestCommons.pause(10);
-	MobileElement login_btn = androidDriver.findElementById("in.redbus.android:id/login");
+	MobileElement login_btn = androidDriver.findElementById("in.redbus.android:id/login");//in.redbus.android:id/login
 	login_btn.click();
 	TestCommons.pause(25);	
 	
@@ -74,7 +74,7 @@ public static void login(AndroidDriver<MobileElement> androidDriver) {
 public static void loginAgain(AndroidDriver<MobileElement> androidDriver) {
 	// TODO Auto-generated method stub
 	TestCommons.pause(10);
-	MobileElement login_btn_again = androidDriver.findElementById("in.redbus.android:id/btnSignIn");
+	MobileElement login_btn_again = androidDriver.findElementById("in.redbus.android:id/btnSignIn");//in.redbus.android:id/btnSignIn
 	login_btn_again.click();
 	TestCommons.pause(25);	
 	
@@ -168,6 +168,16 @@ public static void btnSearch(AndroidDriver<MobileElement> androidDriver) {
 	TestCommons.pause(5);
 	MobileElement btn_Search= androidDriver.findElementById("in.redbus.android:id/btnSearch");
 	btn_Search.click();
+	TestCommons.pause(10);	
+	
+}
+
+
+public static void profile_icon(AndroidDriver<MobileElement> androidDriver) {
+	// TODO Auto-generated method stub
+	TestCommons.pause(5);
+	MobileElement profile_icn= androidDriver.findElementById("in.redbus.android:id/action_profile");
+	profile_icn.click();
 	TestCommons.pause(10);	
 	
 }

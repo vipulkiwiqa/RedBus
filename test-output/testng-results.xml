@@ -35,34 +35,31 @@
       <![CDATA[<br>======> Tap on the Enter City Field <=====</br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 7:Select Source City </br>]]>
+      <![CDATA[<br>Step 7:Click on the Profile Icon </br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 8:Select Destination City </br>]]>
+      <![CDATA[<br>Step 8:Click on Login </br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 9:Select or Enter the date of Travel </br>]]>
+      <![CDATA[<br>Step 9:Click on Login Again </br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 10:Click on Search Button </br>]]>
+      <![CDATA[<br>Step 10:Enter Mobile Number </br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 11:Swipe the Screens Bottom to Top </br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 12:Swipe the Screens Top to Bottom</br>]]>
+      <![CDATA[<br>Step 11:Click on Login Again </br>]]>
     </line>
   </reporter-output>
-  <suite name="Red Bus Mobile Application" duration-ms="509955" started-at="2018-09-27T11:27:29Z" finished-at="2018-09-27T11:35:59Z">
+  <suite name="Red Bus Mobile Application" duration-ms="435755" started-at="2018-09-27T12:19:55Z" finished-at="2018-09-27T12:27:10Z">
     <groups>
     </groups>
-    <test name="Swipe Screens:: 03" duration-ms="509955" started-at="2018-09-27T11:27:29Z" finished-at="2018-09-27T11:35:59Z">
+    <test name="Login:: 05" duration-ms="435755" started-at="2018-09-27T12:19:55Z" finished-at="2018-09-27T12:27:10Z">
       <class name="android.Index.RedBusIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="setUp" is-config="true" duration-ms="82407" started-at="2018-09-27T16:57:29Z" finished-at="2018-09-27T16:58:51Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@6fd02e5]" name="setUp" is-config="true" duration-ms="83603" started-at="2018-09-27T17:49:55Z" finished-at="2018-09-27T17:51:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void android.Index.RedBusIndex.selectyourroute() throws java.lang.Exception]]>
+                <![CDATA[public void android.Index.RedBusIndex.login() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
@@ -78,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectyourroute()[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="selectyourroute" duration-ms="419285" started-at="2018-09-27T16:58:51Z" finished-at="2018-09-27T17:05:51Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:android.Index.RedBusIndex@6fd02e5]" name="login" duration-ms="342315" started-at="2018-09-27T17:51:18Z" finished-at="2018-09-27T17:57:01Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
@@ -105,30 +102,27 @@
               <![CDATA[<br>======> Tap on the Enter City Field <=====</br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 7:Select Source City </br>]]>
+              <![CDATA[<br>Step 7:Click on the Profile Icon </br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 8:Select Destination City </br>]]>
+              <![CDATA[<br>Step 8:Click on Login </br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 9:Select or Enter the date of Travel </br>]]>
+              <![CDATA[<br>Step 9:Click on Login Again </br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 10:Click on Search Button </br>]]>
+              <![CDATA[<br>Step 10:Enter Mobile Number </br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 11:Swipe the Screens Bottom to Top </br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 12:Swipe the Screens Top to Bottom</br>]]>
+              <![CDATA[<br>Step 11:Click on Login Again </br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- selectyourroute -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="8253" started-at="2018-09-27T17:05:51Z" finished-at="2018-09-27T17:05:59Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@6fd02e5]" name="tearDown" is-config="true" duration-ms="9827" started-at="2018-09-27T17:57:01Z" finished-at="2018-09-27T17:57:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectyourroute status=SUCCESS method=RedBusIndex.selectyourroute()[pri:0, instance:android.Index.RedBusIndex@7085bdee] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=RedBusIndex.login()[pri:0, instance:android.Index.RedBusIndex@6fd02e5] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
               </value>
             </param>
           </params>
@@ -136,6 +130,6 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- android.Index.RedBusIndex -->
-    </test> <!-- Swipe Screens:: 03 -->
+    </test> <!-- Login:: 05 -->
   </suite> <!-- Red Bus Mobile Application -->
 </testng-results>
