@@ -6,6 +6,7 @@ package android.init;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Random;
 import java.util.SimpleTimeZone;
@@ -24,7 +25,6 @@ import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
-
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -247,8 +247,8 @@ public class TestCommons {
 		 TestCommons.pause(10);
 		  Dimension size = driver.manage().window().getSize();
 		  System.out.println(size);
-		  int starty = (int) (size.height * 0.50);
-		  int endy = (int) (size.height * 0.20);
+		  int starty = (int) (size.height * 0.70);
+		  int endy = (int) (size.height * 0.10);
 		  int startx = size.width / 2;
 		  System.out.println("Start swipe operation");
 		  driver.swipe(startx, starty, startx, endy, timeduration);
@@ -268,7 +268,7 @@ public class TestCommons {
 		 TestCommons.pause(10);
 		 Dimension size = driver.manage().window().getSize();
 		  System.out.println(size);
-		 int starty = (int) (size.height * 0.50);
+		 int starty = (int) (size.height * 0.7);
 		  int endy = (int) (size.height * 0.20);
 		  int startx = size.width / 2;
 		  System.out.println("Start swipe operation");
@@ -323,5 +323,49 @@ public class TestCommons {
 
 		 }
 	 
-	 
+	 private static final String ALPHA_NUMERIC_STRING = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+		public static String randomAlphaNumeric(int count) {
+			StringBuilder builder = new StringBuilder();
+			while (count-- != 0) {
+			int character = (int)(Math.random()*ALPHA_NUMERIC_STRING.length());
+			builder.append(ALPHA_NUMERIC_STRING.charAt(character));
+			}
+			return builder.toString();
+			}
+
+		private static final String ALPHA_STRING = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		public static String randomAlpha(int count) {
+			StringBuilder builder = new StringBuilder();
+			while (count-- != 0) {
+			int character = (int)(Math.random()*ALPHA_STRING.length());
+			builder.append(ALPHA_STRING.charAt(character));
+			}
+			return builder.toString();
+			}
+		
+
+		private static final String NUMERIC_STRING = "01234567890123456789";
+		public static String randomNumeric(int count) {
+			StringBuilder builder = new StringBuilder();
+			while (count-- != 0) {
+			int character = (int)(Math.random()*NUMERIC_STRING.length());
+			builder.append(NUMERIC_STRING.charAt(character));
+			}
+			return builder.toString();
+			}
+
+		public static String RandomDate(int startDay,int endDay,int stratMonth,int endMonth,int startYear, int endYear) {
+			// TODO Auto-generated method stub
+			int day = createRandomIntBetween(startDay, endDay);
+	        int month = createRandomIntBetween(stratMonth,endMonth);
+	        int year = createRandomIntBetween(startYear, endYear);
+	        String date =  Integer.toString(day)+"/"+Integer.toString(month)+"/"+Integer.toString(year);
+	        return date;      
+		}
+		
+		public static int createRandomIntBetween(int start, int end) {
+	        return start + (int) Math.round(Math.random() * (end - start));
+	    }
+
+		
 }

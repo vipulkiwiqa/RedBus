@@ -119,30 +119,33 @@ public class RedBusIndex extends AppiumInit {
 		TestCommons.log("Step "+(step++)+ ":Click on Continue ");
 		RedBusIndexpage.Clickoncontinuebutton(androidDriver);
 		
-		TestCommons.pause(10);
+		
 		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left ");
 		TestCommons.rightLeftSwipe(androidDriver, 5000);
 		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left");
 		TestCommons.rightLeftSwipe(androidDriver, 5000);
 		
-		TestCommons.pause(10);
-		TestCommons.log("Step "+(step++)+":Swipe the Screens Left to Right ");
-		TestCommons.leftRightSwipe(androidDriver, 5000);
-		TestCommons.log("Step "+(step++)+":Swipe the Screens Left to Right");
-		TestCommons.leftRightSwipe(androidDriver, 5000);
 		
-		TestCommons.pause(10);
-		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left ");
-		TestCommons.rightLeftSwipe(androidDriver, 5000);
-		TestCommons.log("Step "+(step++)+":Swipe the Screens Right to Left");
-		TestCommons.rightLeftSwipe(androidDriver, 5000);
+		
 		TestCommons.log("Step "+(step++)+":Click on Skip  ");
 		RedBusIndexpage.clickonskip(androidDriver);
 		
 		TestCommons.log("Step "+(step++)+ ":Tap On Screen ");
 		RedBusIndexpage.taponscreen(androidDriver);
+		TestCommons.log("Step "+(step++)+ ":Select Source City ");
+		RedBusIndexpage.SourceCity(androidDriver);
+		TestCommons.log("Step "+(step++)+ ":Select Destination City ");
+		RedBusIndexpage.DestinationCity(androidDriver);
 		
+		TestCommons.log("Step "+(step++)+ ":Select or Enter the date of Travel ");
+		RedBusIndexpage.date(androidDriver);
+		TestCommons.log("Step "+(step++)+ ":Click on Search Button ");
+		RedBusIndexpage.btnSearch(androidDriver);
 		
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Bottom to Top ");
+		TestCommons.bottomTopswipe(androidDriver, 5000);
+		TestCommons.log("Step "+(step++)+":Swipe the Screens Top to Bottom");
+		TestCommons.topBottomswipe(androidDriver, 5000);
 		
 		
 	}//end of function

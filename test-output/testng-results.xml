@@ -26,37 +26,43 @@
       <![CDATA[<br>Step 4:Swipe the Screens Right to Left</br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 5:Swipe the Screens Left to Right </br>]]>
+      <![CDATA[<br>Step 5:Click on Skip  </br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 6:Swipe the Screens Left to Right</br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 7:Swipe the Screens Right to Left </br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 8:Swipe the Screens Right to Left</br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 9:Click on Skip  </br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 10:Tap On Screen </br>]]>
+      <![CDATA[<br>Step 6:Tap On Screen </br>]]>
     </line>
     <line>
       <![CDATA[<br>======> Tap on the Enter City Field <=====</br>]]>
     </line>
+    <line>
+      <![CDATA[<br>Step 7:Select Source City </br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 8:Select Destination City </br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 9:Select or Enter the date of Travel </br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 10:Click on Search Button </br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 11:Swipe the Screens Bottom to Top </br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 12:Swipe the Screens Top to Bottom</br>]]>
+    </line>
   </reporter-output>
-  <suite name="Red Bus Mobile Application" duration-ms="353553" started-at="2018-09-26T06:23:09Z" finished-at="2018-09-26T06:29:02Z">
+  <suite name="Red Bus Mobile Application" duration-ms="509955" started-at="2018-09-27T11:27:29Z" finished-at="2018-09-27T11:35:59Z">
     <groups>
     </groups>
-    <test name="Swipe Screens:: 03" duration-ms="353553" started-at="2018-09-26T06:23:09Z" finished-at="2018-09-26T06:29:02Z">
+    <test name="Swipe Screens:: 03" duration-ms="509955" started-at="2018-09-27T11:27:29Z" finished-at="2018-09-27T11:35:59Z">
       <class name="android.Index.RedBusIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="setUp" is-config="true" duration-ms="64712" started-at="2018-09-26T11:53:09Z" finished-at="2018-09-26T11:54:14Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="setUp" is-config="true" duration-ms="82407" started-at="2018-09-27T16:57:29Z" finished-at="2018-09-27T16:58:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void android.Index.RedBusIndex.swipethescreens() throws java.lang.Exception]]>
+                <![CDATA[public void android.Index.RedBusIndex.selectyourroute() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
@@ -72,7 +78,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="swipethescreens()[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="swipethescreens" duration-ms="279192" started-at="2018-09-26T11:54:14Z" finished-at="2018-09-26T11:58:53Z">
+        <test-method status="PASS" signature="selectyourroute()[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="selectyourroute" duration-ms="419285" started-at="2018-09-27T16:58:51Z" finished-at="2018-09-27T17:05:51Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
@@ -90,33 +96,39 @@
               <![CDATA[<br>Step 4:Swipe the Screens Right to Left</br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 5:Swipe the Screens Left to Right </br>]]>
+              <![CDATA[<br>Step 5:Click on Skip  </br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 6:Swipe the Screens Left to Right</br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 7:Swipe the Screens Right to Left </br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 8:Swipe the Screens Right to Left</br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 9:Click on Skip  </br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 10:Tap On Screen </br>]]>
+              <![CDATA[<br>Step 6:Tap On Screen </br>]]>
             </line>
             <line>
               <![CDATA[<br>======> Tap on the Enter City Field <=====</br>]]>
             </line>
+            <line>
+              <![CDATA[<br>Step 7:Select Source City </br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 8:Select Destination City </br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 9:Select or Enter the date of Travel </br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 10:Click on Search Button </br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 11:Swipe the Screens Bottom to Top </br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 12:Swipe the Screens Top to Bottom</br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- swipethescreens -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="9640" started-at="2018-09-26T11:58:53Z" finished-at="2018-09-26T11:59:02Z">
+        </test-method> <!-- selectyourroute -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="8253" started-at="2018-09-27T17:05:51Z" finished-at="2018-09-27T17:05:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=swipethescreens status=SUCCESS method=RedBusIndex.swipethescreens()[pri:0, instance:android.Index.RedBusIndex@7085bdee] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
+                <![CDATA[[TestResult name=selectyourroute status=SUCCESS method=RedBusIndex.selectyourroute()[pri:0, instance:android.Index.RedBusIndex@7085bdee] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
               </value>
             </param>
           </params>

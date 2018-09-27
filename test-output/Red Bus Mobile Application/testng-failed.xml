@@ -8,7 +8,7 @@
     <classes>
       <class name="android.Index.RedBusIndex">
         <methods>
-          <include name="swipethescreens"/>
+          <include name="selectyourroute"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
